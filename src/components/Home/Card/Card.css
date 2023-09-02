@@ -1,0 +1,263 @@
+.main-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #111927;
+}
+.main-card .container {
+    padding: 20% 12%;
+}
+.main-card .container .card {
+    border-radius: 16px;
+    margin: 0 auto;
+    transition: 0.5s;
+    &:hover {
+        box-shadow: rgba(255, 255, 255, 0.24) 0px 5px 10px;
+    }
+}
+.main-card .container .card:nth-child(1), .main-card .container .card:nth-child(2) {
+    margin-bottom: 16%;
+}
+.main-card .container .card1 {
+    background: url("../../../images/chad.png"), #FFF 100% / cover no-repeat;
+    background-size: 365px;
+    background-repeat: no-repeat;
+}
+.main-card .container .card2 {
+    background: url("../../../images/servishcard.png"), #fff 100%;
+    background-size: 162px;
+    background-position-x: 100%;
+    background-position-y: 102%;
+    background-repeat: no-repeat;
+}
+.main-card .container .card3 {
+    background: url("../../../images/projectcard.png"), #fff 100%;
+    background-size: 245px;
+    background-repeat: no-repeat;
+    background-position-x: 140%;
+    background-position-y: 105%;
+}
+.main-card .container .card .card-container {
+    padding: 7%;
+}
+.main-card .container .card .card-container .card-heading .rectangle {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: #004F37;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.main-card .container .card .card-container .card-heading .rectangle svg {
+    padding-top: 12%;
+}
+.main-card .container .card .card-container .card-heading h3 {
+    color: #000;
+    font-family: "Provicali";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+.main-card .container .card .card-container .card-content {
+    width: 50%;
+}
+.main-card .container .card .card-container .card-content p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.main-card .container .card .card-container .card-content .cta-button {
+    margin-top: 8%;
+    margin-bottom: 12%;
+}
+.main-card .container .card .card-container .card-content .cta-button .link {
+    padding: 4px 7px 5px 7px;
+    background: #004F37;
+    color: #FFF;
+    border-radius: 4px;
+    text-align: center;
+    font-family: "Provicali";
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .main-card {
+        max-width: 475px;
+    }
+    .main-card .container .card2 {
+        background: url("../../../images/servishcard.png"), #fff 100%;
+        background-size: 172px;
+        background-position-x: 100%;
+        background-position-y: 102%;
+        background-repeat: no-repeat;
+    }
+    .main-card .container .card3 {
+        background: url("../../../images/projectcard.png"), #fff 100%;
+        background-size: 255px;
+        background-repeat: no-repeat;
+        background-position-x: 140%;
+        background-position-y: 105%;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .main-card {
+        max-width: 640px;
+    }
+    .main-card .container {
+        padding: 20% 16%;
+    }
+    .main-card .container .card:nth-child(1), .main-card .container .card:nth-child(2) {
+        margin-bottom: 12%;
+    }
+    .main-card .container .card1 {
+        background-size: 390px;
+        background-position-y: 2500%;
+        background-position-x: 100%;
+    }
+    .main-card .container .card2 {
+        background-size: 195px;
+    }
+    .main-card .container .card3 {
+        background-size: 310px;
+    }
+    .main-card .container .card .card-container {
+        padding: 7%;
+    }
+    .main-card .container .card .card-container .card-heading .rectangle {
+        margin-bottom: 3%;
+    }
+    .main-card .container .card .card-container .card-heading h3 {
+        font-size: 25px;
+    }
+    .main-card .container .card .card-container .card-content {
+        width: 54%;
+    }
+    .main-card .container .card .card-container .card-content p {
+        font-size: 10px;
+    }
+    .main-card .container .card .card-container .card-content .cta-button {
+        margin-top: 10%;
+    }
+    .main-card .container .card .card-container .card-content .cta-button .link {
+        font-size: 10px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .main-card {
+        max-width: 768px;
+    }
+    .main-card .container {
+        padding: 20% 20%;
+    }
+    .main-card .container .card:nth-child(1), .main-card .container .card:nth-child(2) {
+        margin-bottom: 10%;
+    }
+    .main-card .container .card1 {
+        background-position-y: 400%;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .main-card {
+        max-width: 1024px;
+    }
+    .main-card .container {
+        padding: 20% 15%;
+    }
+    .main-card .container .card {
+        border-radius: 20px;
+        &:hover {
+            box-shadow: rgba(255, 255, 255, 0.24) 0px 12px 25px;
+        }
+    }
+    .main-card .container .card:nth-child(1), .main-card .container .card:nth-child(2) {
+        margin-bottom: 12%;
+    }
+    .main-card .container .card1 {
+        background-size: 590px;
+        background-position-y: -380%;
+        background-position-x: 100%;
+    }
+    .main-card .container .card2 {
+        background-size: 260px;
+    }
+    .main-card .container .card3 {
+        background-size: 390px;
+        background-position-x: 100%;
+        background-position-y: 102%;
+    }
+    .main-card .container .card .card-container {
+        padding: 7%;
+    }
+    .main-card .container .card .card-container .card-heading .rectangle {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        margin-bottom: 3%;
+    }
+    .main-card .container .card .card-container .card-heading .rectangle svg {
+        padding-top: 20%;
+    }
+    .main-card .container .card .card-container .card-heading h3 {
+        font-size: 32px;
+        letter-spacing: 1.05px;
+    }
+    .main-card .container .card .card-container .card-content {
+        width: 56%;
+        margin-top: 1%;
+    }
+    .main-card .container .card .card-container .card-content p {
+        font-size: 14px;
+    }
+    .main-card .container .card .card-container .card-content .cta-button {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .main-card .container .card .card-container .card-content .cta-button .link {
+        padding: 10px 13px 11px 13px;
+        border-radius: 8px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .main-card {
+        max-width: 1280px;
+    }
+    .main-card .container {
+        padding: 15% 20%;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .main-card {
+        max-width: 1536px;
+    }
+    .main-card .container {
+        padding: 18% 25%;
+    }
+}

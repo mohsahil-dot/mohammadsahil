@@ -1,0 +1,133 @@
+hr {
+    opacity: 15%;
+}
+#contact {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: #111927;
+}
+#contact .container {
+    padding: 6% 12% 9%;
+    margin: 0 auto;
+}
+#contact .container .content {
+    text-align: center;
+}
+#contact .container .content .line {
+    margin-bottom: 3%;
+}
+#contact .container .content .line p{
+    color: #fff;
+    font-family: "GeneralSans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+#contact .container .content .line h4{
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+#contact .container .content .icons a:nth-child(1), #contact .container .content .icons a:nth-child(2), #contact .container .content .icons a:nth-child(3) {
+    margin-right: 4%;
+}
+#contact .container .content .icons .icon {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+#contact .container .copyright {
+    position: inherit;
+    transform: translate(0px, 28px);
+    text-align: center;
+    cursor: none !important;
+    opacity: 90%;
+}
+#contact .container .copyright p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+/* xs */
+@media (min-width: 475px) {
+    #contact {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    #contact {
+        max-width: 640px;
+    }
+    #contact .container {
+        padding: 6% 12% 8%;
+    }
+    #contact .container .copyright {
+        transform: translate(0px, 28px);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    #contact {
+        max-width: 768px;
+    }
+    #contact .container {
+        padding: 6% 12% 7%;
+    }
+    #contact .container .copyright {
+        transform: translate(0px, 50px);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    #contact {
+        max-width: 1024px;
+    }
+    #contact .container {
+        padding: 4% 12% 5%;
+    }
+    #contact .container .content .line p{
+        font-size: 10px;
+    }
+    #contact .container .content .line h4{
+        font-size: 14px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    #contact {
+        max-width: 1280px;
+    }
+    #contact .container .content .line p{
+        font-size: 11px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    #contact {
+        max-width: 1536px;
+    }
+}
+@media (min-width: 2000px) {
+    #contact {
+        max-width: 2000px;
+    }
+}

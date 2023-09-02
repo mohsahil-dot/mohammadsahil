@@ -1,0 +1,288 @@
+.main-about {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #111927;
+}
+.main-about .container {
+    padding: 10% 8%;
+}
+.main-about .container .heading {
+    text-align: center;
+}
+.main-about .container .heading .star1 {
+    width: 6%;
+    transform: translate(-102px, 36px);
+}
+.main-about .container .heading .star2 {
+    width: 6%;
+    transform: translate(100px, -32px);
+}
+.main-about .container .heading h3 {
+    color: #FFF;
+    font-family: "Provicali";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+.main-about .container .images {
+    margin-top: 12%;
+    margin-bottom: 13%;
+    display: flex;
+    justify-content: center;
+}
+.main-about .container .images .card {
+    position: relative;
+    left: 0px;
+    width: 79%;
+    height: 127px;
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    outline: 1px solid #111927;
+    overflow: hidden;
+}
+.main-about .container .images .card img {
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.main-about .container .images .card:hover {
+    cursor: none;
+    transform: scale(1.02);
+    transition: 1000ms all;
+}
+.main-about .container .images .card:hover figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.4rem;
+    position: absolute;
+    height: 35%;
+    width: 51%;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+.main-about .container .content {
+    padding: 0 10%;
+}
+.main-about .container .content span {
+    color: #FFF;
+    font-family: "Provicali";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.85px;
+    text-transform: capitalize;
+}
+.main-about .container .content p {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .main-about {
+        max-width: 475px;
+    }
+    .main-about .container {
+        padding: 11% 12%;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .main-about {
+        max-width: 640px;
+    }
+    .main-about .container {
+        padding: 6% 14%;
+        padding-bottom: 20%;
+    }
+    .main-about .container .heading .star1 {
+        width: 10%;
+        transform: translate(-106px, 38px);
+    }
+    .main-about .container .heading .star2 {
+        width: 10%;
+        transform: translate(102px, -32px);
+    }
+    .main-about .container .heading h3 {
+        font-size: 38px;
+    }
+    .main-about .container .images {
+        margin-top: 13%;
+        margin-bottom: 14%;
+    }
+    .main-about .container .images .card img {
+        height: 13rem;
+        border-radius: 6px;
+    }
+    .main-about .container .images .card {
+        width: 79%;
+        height: 185px;
+    }
+    .main-about .container .images .card:hover figcaption {
+        font-size: 0.46rem;
+    }
+    .main-about .container .content span {
+        font-size: 16px;
+        letter-spacing: 0.9px;
+    }
+    .main-about .container .content p {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .main-about {
+        max-width: 768px;
+    }
+    .main-about .container {
+        padding: 6% 15%;
+        padding-bottom: 22%;
+    }
+    .main-about .container .heading h3 {
+        font-size: 45px;
+    }
+    .main-about .container .images .card {
+        width: 79%;
+        height: 200px;
+    }
+    .main-about .container .images .card img {
+        height: 15rem;
+        border-radius: 6px;
+    }
+    .main-about .container .images .card:hover figcaption {
+        font-size: 0.5rem;
+    }
+    .main-about .container .content span {
+        font-size: 16px;
+        letter-spacing: 0.9px;
+    }
+    .main-about .container .content p {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .main-about {
+        max-width: 1024px;
+    }
+    .main-about .container {
+        padding: 5% 16%;
+        padding-bottom: 22%;
+    }
+    .main-about .container .heading .star1 {
+        width: 10%;
+        transform: translate(-110px, 38px);
+    }
+    .main-about .container .heading .star2 {
+        width: 10%;
+        transform: translate(105px, -33px);
+    }
+    .main-about .container .heading h3 {
+        font-size: 40px;
+    }
+    .main-about .container .images {
+        margin-top: 14%;
+        margin-bottom: 12%;
+    }
+    .main-about .container .images .card {
+        width: 76%;
+        height: 240px;
+    }
+    .main-about .container .images .card img {
+        height: 19rem;
+        border-radius: 12px;
+    }
+    .main-about .container .images .card:hover figcaption {
+        font-size: 0.58rem;
+    }
+    .main-about .container .content span {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
+    .main-about .container .content p {
+        font-size: 15px;
+        letter-spacing: 0.45px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .main-about {
+        max-width: 1280px;
+    }
+    .main-about .container {
+        padding: 4% 18%;
+        padding-bottom: 20%;
+    }
+    .main-about .container .heading .star1 {
+        width: 10%;
+        transform: translate(-110px, 38px);
+    }
+    .main-about .container .heading .star2 {
+        width: 10%;
+        transform: translate(105px, -33px);
+    }
+    .main-about .container .heading h3 {
+        font-size: 40px;
+    }
+    .main-about .container .images {
+        margin-top: 12%;
+        margin-bottom: 14%;
+    }
+    .main-about .container .images .card {
+        width: 76%;
+        height: 280px;
+    }
+    .main-about .container .images .card img {
+        height: 22rem;
+        border-radius: 14px;
+    }
+    .main-about .container .images .card:hover figcaption {
+        font-size: 0.6rem;
+    }
+    .main-about .container .content {
+        padding: 0 12%;
+    }
+    .main-about .container .content span {
+        font-size: 20px;
+        letter-spacing: 0.9px;
+    }
+    .main-about .container .content p {
+        font-size: 15px;
+        letter-spacing: 0.45px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .main-about {
+        max-width: 1536px;
+    }
+}

@@ -1,0 +1,103 @@
+.main-header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #111927;
+}
+.main-header .container {
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(172, 221, 163, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 80%;
+    border-radius: 32px;
+    margin: 0 auto;
+    padding: 4px 0 4px 0;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(187, 195, 203, 0.35) 0px -2px 6px 0px inset;
+    line-height: 0;
+    margin-top: 6%;
+}
+.main-header .container .links ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-header .container .links ul li {
+    list-style: none;
+}
+.main-header .container .links ul li .link{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main-header .container .links ul li .link:focus {
+    color: #004d25;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .main-header {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .main-header {
+        max-width: 640px;
+    }
+    .main-header .container {
+        margin-top: 5%;
+    }
+    .main-header .container .links ul li .link{
+        font-size: 0.82rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .main-header {
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .main-header {
+        max-width: 1024px;
+    }
+    .main-header .container {
+        margin-top: 4%;
+        padding: 5px 0 5px 0;
+    }
+    .main-header .container .links ul li .link{
+        font-size: 0.86rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .main-header {
+        max-width: 1280px;
+    }
+    .main-header .container {
+        margin-top: 3%;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .main-header {
+        max-width: 1536px;
+    }
+}

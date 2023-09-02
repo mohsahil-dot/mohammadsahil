@@ -1,0 +1,320 @@
+.main-project {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #111927;
+}
+.main-project .container {
+    padding: 10% 8%;
+}
+.main-project .container .heading {
+    text-align: center;
+}
+.main-project .container .heading .star1 {
+    width: 6%;
+    transform: translate(-102px, 36px);
+}
+.main-project .container .heading .star2 {
+    width: 6%;
+    transform: translate(100px, -32px);
+}
+.main-project .container .heading h3 {
+    color: #FFF;
+    font-family: "Provicali";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+.main-project .container .content {
+    padding: 6% 0%;
+}
+.main-project .container .content .main-project h3, .main-project .container .content .all-projects h3 {
+    background: #ACDDA3;
+    background: linear-gradient(to right, #ACDDA3 0%, #FFFFFF 20%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Provicali";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+}
+.main-project .container .content .main-project .image-box {
+    width: 100%;
+    height: 275px;
+    overflow: hidden;
+    background-image: url(../../images/bgproject.jpeg);
+    transition: 1s;
+    margin: 0 auto;
+        &:hover {
+            border-radius: 12px;
+        }
+}
+.main-project .container .content .main-project .image-box img {
+    width: 100%;
+    transition: transform 1s ease;
+}
+.main-project .container .content .main-project .image-box img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.main-project .container .content .main-project .rectangle {
+    max-width: fit-content;
+    height: 17px;
+    border-radius: 20px;
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    background-color: rgba(245, 245, 245, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.main-project .container .content .main-project .rectangle p {
+    align-items: center;
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+.main-project .container .content .main-project .detail {
+    margin-bottom: 5rem;
+}
+.main-project .container .content .main-project .detail h4 {
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+}
+.main-project .container .content .main-project .detail p {
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.main-project .container .content hr {
+    width: 20%;
+    height: 0.1px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+.main-project .container .content .all-projects .image-box {
+    width: 100%;
+    height: 275px;
+    overflow: hidden;
+    background: url(../../images/bgproject.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s ease;
+        &:hover {
+            border-radius: 15px;
+        }
+}
+.main-project .container .content .all-projects .image-box img {
+    width: 100%;
+    transition: transform 1s ease;
+        &:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+}
+.main-project .container .content .all-projects .rectangle {
+    display: none;
+}
+.main-project .container .content .all-projects .detail {
+    margin-bottom: 4em;
+    margin-top: 10px;
+}
+.main-project .container .content .all-projects .detail h4 {
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+}
+.main-project .container .content .all-projects .detail p {
+    color: #fff;
+    font-family: "Provicali";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .main-project {
+        max-width: 475px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 300px;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 300px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .main-project {
+        max-width: 640px;
+    }
+    .main-project .container {
+        padding: 5% 8%;
+    }
+    .main-project .container .heading .star1 {
+        width: 10%;
+        transform: translate(-106px, 38px);
+    }
+    .main-project .container .heading .star2 {
+        width: 10%;
+        transform: translate(102px, -32px);
+    }
+    .main-project .container .heading h3 {
+        font-size: 38px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 408px;
+    }
+    .main-project .container .content .all-projects .cards {
+        display: flex;
+        gap: 5%;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 195px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .main-project {
+        max-width: 768px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 485px;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 232px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .main-project {
+        max-width: 1024px;
+    }
+    .main-project .container {
+        padding: 4% 10%;
+    }
+    .main-project .container .heading .star1 {
+        width: 10%;
+        transform: translate(-110px, 38px);
+    }
+    .main-project .container .heading .star2 {
+        width: 10%;
+        transform: translate(105px, -33px);
+    }
+    .main-project .container .heading h3 {
+        font-size: 40px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 612px;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 292px;
+    }
+    .main-project .container .content .main-project h3, .main-project .container .content .all-projects h3 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    .main-project .container .content .main-project .rectangle p {
+        font-size: 11px;
+    }
+    .main-project .container .content .main-project .detail h4 {
+        font-size: 16px;
+    }
+    .main-project .container .content .main-project .detail p {
+        font-size: 10px;
+    }
+    .main-project .container .content .all-projects .rectangle {
+        display: block;
+        max-width: fit-content;
+        height: 20px;
+        border-radius: 20px;
+        backdrop-filter: blur(25px) saturate(180%);
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        background-color: rgba(245, 245, 245, 0.11);
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        margin-bottom: 6px;
+        margin-top: 10px;
+        padding-top: 7px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .main-project .container .content .all-projects .rectangle p {
+        color: #fff;
+        font-family: "Provicali";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+    .main-project .container .content .all-projects .detail h4 {
+        font-size: 14px;
+    }
+    .main-project .container .content .all-projects .detail p {
+        font-size: 10px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .main-project {
+        max-width: 1280px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 762px;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 365px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .main-project {
+        max-width: 1536px;
+    }
+    .main-project .container .content .main-project .image-box {
+        height: 912px;
+    }
+    .main-project .container .content .all-projects .image-box {
+        height: 440px;
+    }
+}
