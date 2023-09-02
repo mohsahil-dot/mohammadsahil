@@ -44,7 +44,7 @@ const Card = () => {
                         <div className='card-content'>
                             <p>Driven by excellence, our services are meticulously crafted to empower you, ensuring your goals are not just met, but exceeded.</p>
                             <div className='cta-button'>
-                                <Link onClick={scrollToTop} to='/about' className='link'>Check now</Link>
+                                <Link onClick={scrollToTop} to='/service' className='link'>Check now</Link>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Card = () => {
                         <div className='card-content'>
                             <p>Venturing through shadows, I weave chaos into art; join me on this carnival of projects, where each creation tells a unique story.</p>
                             <div className='cta-button'>
-                                <Link onClick={scrollToTop} to='/about' className='link'>Check now</Link>
+                                <Link onClick={scrollToTop} to='/project' className='link'>Check now</Link>
                             </div>
                         </div>
                     </div>
